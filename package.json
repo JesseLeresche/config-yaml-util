@@ -1,0 +1,21 @@
+{
+  "name": "yaml-converter",
+  "version": "1.0.0",
+  "preferGlobal": true,
+  "description": "Converter to take unordered yaml and output it in an ordered fashion",
+  "bin": {
+    "yaml-converter": "./converter.js"
+  },
+  "keywords": [
+    "yaml"
+  ],
+  "dependencies": {
+    "alphabetize-object-keys": "^1.0.4",
+    "chalk": "^2.4.1",
+    "child_process": "^1.0.2",
+    "commander": "^2.17.1",
+    "yamljs": "^0.3.0"
+  },
+  "author": "Jesse Leresche",
+  "license": "ISC"
+}
